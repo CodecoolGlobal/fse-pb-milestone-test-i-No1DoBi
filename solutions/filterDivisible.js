@@ -9,6 +9,14 @@ If the array is empty then it should return an empty array.
  */
 
 function filterDivisible(numbers, divisor) {
+    if (divisor === 0) {
+        return null;
+    }
+    if (numbers.length === 0) {
+        return [];
+    }
+
+    return numbers.filter(num => num % divisor === 0);
 
 }
 

@@ -16,6 +16,10 @@ You do not have to deal with the case, when there are only underage users in the
 */
 
 function averageAgeOfAdults(users) {
+  for (let i = 0; i < users.length; i++) {
+    const user = users[i];
+
+  }
 
 }
 
